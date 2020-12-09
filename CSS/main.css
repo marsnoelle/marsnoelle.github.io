@@ -179,3 +179,36 @@ html {
     color: white;
     -webkit-text-stroke: 1px rgb(98, 98, 185);
   }
+
+  .center-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+
+  .image-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+  }
+
+  .image-row img {
+      border: 2px solid rgb(98, 98, 185);
+  }
+
+  .image-row img:hover {
+      height: 500px;
+  }
+
+  .gallery-header {
+      display: flex;
+      justify-content: stretch;
+  }
+
+  .gallery-header div.section {
+      flex: auto;
+  }
+  .business-info {
+      font-size: 30px;
+  }
