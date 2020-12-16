@@ -168,9 +168,7 @@ html {
 
   table, th, td {
       border: 1px solid rgb(98, 98, 185);
-  }
-
-  th {
+      padding: 10px;
       background-color: white;
   }
 
@@ -196,11 +194,6 @@ html {
   .image-row img {
       border: 2px solid rgb(98, 98, 185);
   }
-
-  .image-row img:hover {
-      height: 500px;
-  }
-
   .gallery-header {
       display: flex;
       justify-content: stretch;
